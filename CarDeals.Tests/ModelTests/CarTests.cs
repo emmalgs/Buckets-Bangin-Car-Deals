@@ -18,9 +18,11 @@ namespace CarDeals.Tests
     public void Trucks_AddsTruckToOptions_List()
     {
       Trucks bronco = new Trucks("ford", "bronco", 1975, "blue", 72500);
+      Trucks wagoneer = new Trucks("jeep", "wagoneer", 1964, "yellow", 64000);
       Trucks.Options.Add(bronco);
-      string expected = "ford";
-      Assert.AreEqual(expected, Trucks.Options[0].Make);
+      Trucks.Options.Add(wagoneer);
+      string expected = "jeep";
+      Assert.AreEqual(expected, Trucks.Options[1].Make);
     }
   }
 }
