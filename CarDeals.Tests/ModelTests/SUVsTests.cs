@@ -19,7 +19,7 @@ namespace CarDeals.Tests
     }
 
     [TestMethod]
-    public void SUVs_AddsTruckToOptions_List()
+    public void SUVs_AddsSUVToOptions_List()
     {
       SUVs landcruiser = new SUVs("toyota", "landcruiser", 1979, "teal", 38300);
       SUVs wagoneer = new SUVs("vw", "thing", 1974, "orange", 33400);
