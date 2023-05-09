@@ -9,6 +9,7 @@ namespace CarDeals.Models
       Year = year;
       Color = color;
       Price = price;
+      All.Add(this);
     }
   }
 }
