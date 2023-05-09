@@ -5,7 +5,7 @@ using CarDeals.Models;
 namespace CarDeals.Tests
 {  
   [TestClass]
-  public class CarTests : IDisposable
+  public class TrucksTests : IDisposable
   {
     public void Dispose()
     {
