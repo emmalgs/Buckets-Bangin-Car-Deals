@@ -10,6 +10,10 @@ namespace CarDeals.Models
     public int Year { get; set; }
     public string Color { get; set; }
     public float Price { get; set; }
-    public static List<CarLot> Options { get; set; } = new List<CarLot> {};
+    public static List<CarLot> All { get; set; } = new List<CarLot> {};
+    public static void ClearAll()
+    {
+      All.Clear();
+    }
   }
 }
